@@ -1,3 +1,5 @@
+/* eslint-disable no-useless-catch */
+/* eslint-disable react/prop-types */
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import './SearchBox.css'

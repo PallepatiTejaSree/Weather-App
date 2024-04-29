@@ -14,14 +14,14 @@ export default function WeatherApp(){
         weather:"few clouds"
     });
 
-    let updateInfo=(newInfo)=>{
+    let info=(newInfo)=>{
         setWeatherInfo(newInfo);
     }
 
     return (
         <div style={{textAlign:"center"}}>
             <h1>Weather App by Teja Sree</h1>
-            <SearchBox updateInfo={updateInfo}/>
+            <SearchBox updateInfo={info}/>
             <InfoBox info={weatherInfo}/>
         </div>
     )
